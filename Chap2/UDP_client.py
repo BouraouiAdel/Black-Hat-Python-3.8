@@ -12,5 +12,5 @@ client.sendto(b"AAABBBCCC", (target_host, target_port))
 # Receive some data
 (bytes, address) = client.recvfrom(4096)
 
-print(bytes.decode(encoding="ASCII"))
+print(bytes.decode(encoding="UTF-8"))
 
