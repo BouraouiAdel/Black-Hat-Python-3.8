@@ -29,7 +29,6 @@ def client_sender(target_address, target_port, data_to_send):
 					break
 
 			print(response, end = "")
-			
 			# Wait for more input
 			data_to_send = input("") + "\n"
 
